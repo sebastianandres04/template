@@ -1,0 +1,121 @@
+/* Estilos generales para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif; /* Fuente general del sitio */
+    margin: 0; /* Elimina márgenes externos del navegador */
+    padding: 0; /* Elimina espacios interiores por defecto */
+}
+
+/* Clase contenedor: centra el contenido y limita el ancho */
+.container {
+    width: 80%; /* El contenido ocupará el 80% del ancho de la pantalla */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+    padding: 20px 0; /* Espaciado vertical arriba y abajo */
+}
+
+/* Encabezado del sitio */
+header {
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Texto blanco */
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 100px 0; /* Espaciado grande arriba y abajo */
+}
+
+/* Título principal dentro del header */
+header h1 {
+    font-size: 2.5em; /* Aumenta el tamaño de fuente del título */
+}
+
+/* Botón estilo general */
+.btn {
+    display: inline-block; /* Se comporta como bloque en línea */
+    background-color: #007bff; /* Azul predeterminado */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Animación suave al pasar el mouse */
+}
+
+/* Cambio de color cuando el mouse pasa por encima del botón */
+.btn:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+}
+
+/* Sección general */
+section {
+    padding: 50px 0; /* Espaciado grande arriba y abajo en cada sección */
+}
+
+/* Títulos de segundo nivel (h2) centrados */
+h2 {
+    text-align: center;
+}
+
+/* Estilo para cada bloque de características */
+.feature {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 30px; /* Espacio inferior entre elementos */
+}
+
+.feature h3 {
+    font-size: 1.5em; /* Aumenta el tamaño de los títulos de características */
+}
+
+/* Estilo para cada testimonio */
+.testimonial {
+    background-color: #f9f9f9; /* Fondo gris claro */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 30px; /* Espacio entre testimonios */
+}
+
+/* El texto de los testimonios está en cursiva */
+.testimonial p {
+    font-style: italic;
+}
+
+/* Cita del cliente en negrita */
+.testimonial cite {
+    font-weight: bold;
+}
+
+/* Estilo para el formulario */
+form {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrado horizontal */
+}
+
+/* Estilo para los campos de texto, correo y área de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Ocupar todo el ancho disponible */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espacio entre campos */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris claro */
+}
+
+/* Estilo para el botón de enviar */
+button[type="submit"] {
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* El cursor cambia a una mano al pasar encima */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+/* Cambio de color del botón al pasar el mouse */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    text-align: center; /* Centrado horizontal */
+    padding: 20px 0; /* Espaciado vertical */
+}
